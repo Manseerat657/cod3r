@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* .b1{
+            /* background-image:url(wall.jpg); */
+            /* background-position:inherit; */
+            /* background-repeat:no-repeat; */
+            /* overflow:hidden; */
+            /* background-attachment: fixed;
+            background-size:cover; */
+            /* background-position:center; */
+             
+            
+         /* }  */
+
+         .b1{
+             background-image:linear-gradient(black,rgb(2, 2, 58))
+         }
+         
+        .div1{
+            background-color:rgba(0, 0, 0, 0) ;
+            color:White;
+            padding:20px;
+            text-align:center;
+            font-family:monospace;
+            
+        }
+        h1{
+            box-shadow : 2px 2px 2px 2px rgb(121, 118, 120);
+            text-shadow: 5px 5px 5px   rgb(163, 72, 172);
+            font-size:60px;
+            font-style: italic;
+        }
+        main{
+            margin: 60px;
+        }
+        section{
+            margin:auto;
+            padding-top: 100px;
+            border-radius: 20px;
+            opacity:0.8;
+        }
+        input[type="text"],input[type="email"],input[type="password"]{
+            width:80%;
+            padding:10px;
+            border-radius:10px;
+            background-color: beige;
+            
+        }
+        button[type="submit"]{
+            width:30%;
+            background-color:rgb(109, 89, 128);
+            text-align:center;
+            border-radius:20px; 
+            padding:15px;
+        }
+         #my-image {
+        height: 150px;
+        width: 150px;
+        margin: auto; 
+         /* margin-top: -17vh;  */
+       } 
+
+        #my-image img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow:0px 0px 10px 2px white
+        
+
+        }
+        label{
+            font-weight: 600;
+            /* font-size:20px; */
+            font-family:'Times New Roman', Times, serif;
+        }
+
+        input[type="text"]:hover,input[type="email"]:hover{
+            background-color: thistle;
+            color:black;
+
+        }
+        button[type="submit"]{
+            font-weight:500;
+            /* padding:20px; */
+            font-family:serif;
+            color:rgb(240, 231, 231);
+            margin:20px;
+        }
+        button[type="submit"]:hover{
+            background-color:black;
+            box-shadow:0px 0px 4px 2px blanchedalmond;
+        }
+        button[type="submit"] a{
+            color: rgb(236, 230, 230);
+            text-decoration: none;
+
+        }
+
+
+
+    </style>
+</head>
+<body class="b1">
+    <header>
+        <div class="div1">
+            <!-- <h1>Mythical Moon</h1> -->
+        </div>
+        <!-- <div id="my-image" padding="40px" >
+            <img src="logo1.jpg" alt="This is a logo ">
+        </div> -->
+        <main>
+            <section style="background-color:rgba(175, 62, 170, 0.75); height:525px; width:525px; text-align:center; margin-top: 50px;">
+                <form action="" method="post">
+                    <label for="fname">FIRST NAME:</label><br>
+                    <input id="fname" name="firstname" type="text" required>
+                    <br><br>
+                    <label for="lname">LAST NAME:</label><br>
+                    <input type="text" name="lastname" id="lname" required>
+                    <br><br> 
+                    <label for="email">EMAIL ID:</label><br>
+                    <input type="email" name="email" id="email" required>
+                    <br><br>
+                    <label for="phone">PHONE NO.</label><br>
+                    <input type="text" maxlength="10" id="phone" name="phone no." required >
+                    <br>
+                    <br>
+                    <label for="pass">Password</label><br>
+                    <input type="password" id="phone" name="password" required>
+                    <br>
+                    <br>
+                    <label for="pass">Confirm Password</label><br>
+                    <input type="password" id="phone" name="password" required>
+                    <br>
+                    <button type="submit" style="text-align:center">SIGN UP</button>
+                    <button type="submit" style="text-align:center">Login</button>
+                </form>
+            </section>
+            
+        </main>
+    </header>
+    
+</body>
+</html
